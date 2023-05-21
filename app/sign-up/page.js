@@ -1,7 +1,7 @@
 import React from "react";
-import Link from "next/link";
-import { useState, useEffect } from "react";
-import { UserAuth } from "@/backend/context/AuthContext";
+// import Link from "next/link";
+// import { useState, useEffect } from "react";
+// import { UserAuth } from "@/backend/context/AuthContext";
 
 const page = () => {
   // const { user, signUp } = UserAuth();
