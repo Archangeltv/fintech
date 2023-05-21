@@ -9,3 +9,15 @@ body {
 .padding {
   @apply px-4 sm:px-8 md:px-20;
 }
+
+.st0 {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 20;
+  stroke-linecap: round;
+  stroke-miterlimit: 3;
+}
+
+.grad {
+  @apply bg-gradient-to-r from-pink-500 via-pink-600 to-yellow-500;
+}

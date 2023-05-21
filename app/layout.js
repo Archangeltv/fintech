@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Inter, Poppins } from "next/font/google";
+import { AuthContextProvider } from "@/backend/context/AuthContext";
 
 const inter = Inter({
   weight: ["400", "500", "600", "700"],
@@ -14,7 +15,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <AuthContextProvider>{children}</AuthContextProvider>
+      </body>
     </html>
   );
 }
